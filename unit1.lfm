@@ -1,0 +1,200 @@
+object Form1: TForm1
+  Left = 258
+  Height = 262
+  Top = 126
+  Width = 300
+  BorderStyle = bsDialog
+  Caption = 'Form1'
+  ClientHeight = 262
+  ClientWidth = 300
+  LCLVersion = '1.6.2.0'
+  object Button1: TButton
+    Left = 16
+    Height = 38
+    Top = 144
+    Width = 42
+    Caption = '1'
+    OnClick = digitClick
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 38
+    Top = 192
+    Width = 42
+    Caption = '0'
+    OnClick = digitClick
+    TabOrder = 1
+  end
+  object equal: TButton
+    Left = 72
+    Height = 38
+    Top = 192
+    Width = 42
+    Caption = '='
+    OnClick = equalClick
+    TabOrder = 2
+  end
+  object plus: TButton
+    Left = 128
+    Height = 38
+    Top = 192
+    Width = 42
+    Caption = '+'
+    OnClick = operationClick
+    TabOrder = 3
+  end
+  object minus: TButton
+    Left = 184
+    Height = 38
+    Top = 192
+    Width = 42
+    Caption = '-'
+    OnClick = operationClick
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 72
+    Height = 38
+    Top = 144
+    Width = 42
+    Caption = '2'
+    OnClick = digitClick
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 128
+    Height = 38
+    Top = 144
+    Width = 42
+    Caption = '3'
+    OnClick = digitClick
+    TabOrder = 6
+  end
+  object division: TButton
+    Left = 184
+    Height = 38
+    Top = 144
+    Width = 42
+    Caption = '/'
+    OnClick = operationClick
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 16
+    Height = 38
+    Top = 96
+    Width = 42
+    Caption = '4'
+    OnClick = digitClick
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 72
+    Height = 38
+    Top = 96
+    Width = 42
+    Caption = '5'
+    OnClick = digitClick
+    TabOrder = 9
+  end
+  object Button11: TButton
+    Left = 128
+    Height = 38
+    Top = 96
+    Width = 42
+    Caption = '6'
+    OnClick = digitClick
+    TabOrder = 10
+  end
+  object mult: TButton
+    Left = 184
+    Height = 38
+    Top = 96
+    Width = 42
+    Caption = '*'
+    OnClick = operationClick
+    TabOrder = 11
+  end
+  object Button13: TButton
+    Left = 16
+    Height = 38
+    Top = 48
+    Width = 42
+    Caption = '7'
+    OnClick = digitClick
+    TabOrder = 12
+  end
+  object Button14: TButton
+    Left = 72
+    Height = 38
+    Top = 48
+    Width = 42
+    Caption = '8'
+    OnClick = digitClick
+    TabOrder = 13
+  end
+  object Button15: TButton
+    Left = 128
+    Height = 38
+    Top = 48
+    Width = 42
+    Caption = '9'
+    OnClick = digitClick
+    TabOrder = 14
+  end
+  object clear: TButton
+    Left = 184
+    Height = 38
+    Top = 48
+    Width = 98
+    Caption = 'C'
+    OnClick = clearClick
+    TabOrder = 15
+  end
+  object Edit1: TEdit
+    Left = 15
+    Height = 23
+    Top = 8
+    Width = 267
+    Enabled = False
+    TabOrder = 16
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 13
+    Top = 240
+    Width = 206
+    Caption = 'Powered by ArtemBatalov, ArtemZarukin'
+    Font.Height = 13
+    ParentColor = False
+    ParentFont = False
+  end
+  object koren: TButton
+    Left = 240
+    Height = 38
+    Top = 96
+    Width = 42
+    Caption = '√'
+    OnClick = funcClick
+    TabOrder = 17
+  end
+  object cosinus: TButton
+    Left = 240
+    Height = 38
+    Top = 144
+    Width = 42
+    Caption = 'cos'
+    OnClick = funcClick
+    TabOrder = 18
+  end
+  object sinus: TButton
+    Left = 240
+    Height = 38
+    Top = 192
+    Width = 42
+    Caption = 'sin'
+    OnClick = funcClick
+    TabOrder = 19
+  end
+end
